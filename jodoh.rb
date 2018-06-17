@@ -48,6 +48,7 @@ def hitung_jodoh(nama_kamu, umur_kamu, x_kamu, y_kamu,
   #{selisih_umur_normal}x#{bobot_selisih_umur}+
   #{jarak_planar_normal}x#{bobot_selisih_jarak}
    = #{skor}"""
+
 end
 
 hitung_jodoh("Budiman Susanto", 25, 1000, 105,
