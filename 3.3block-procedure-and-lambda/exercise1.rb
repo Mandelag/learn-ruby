@@ -1,7 +1,7 @@
-def detect_int ( l1=lambda {|x| true}, l2=lambda {|x| true})
+def detect_int ( *lambdas)
   detect = 1
-  while true
-    if l1.call(detect) && l2.call(detect)
+  while lambdas.length >= 1
+    if lambdas.all? {|lbd| lbd.call(detect)}
       break
     end
     detect += 1
