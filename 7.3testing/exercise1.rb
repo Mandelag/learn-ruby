@@ -1,6 +1,5 @@
-def create_sentence(*words)
-  words.join(" ")
+class Sentence 
+  def self.create_sentence(*words)
+    words.join(" ")
+  end
 end
-
-
-puts create_sentence(["Hello", "Ruby", "World!"])   
