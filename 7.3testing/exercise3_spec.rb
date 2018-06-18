@@ -14,6 +14,5 @@ RSpec.describe Descender do
     it "tes3" do
       expect(Descender.descending(1254859723)).to eq(9875543221)
     end
-    
   end
 end
